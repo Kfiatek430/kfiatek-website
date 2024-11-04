@@ -1,0 +1,96 @@
+/* Navbar */
+.margin {
+    margin: 0 1.25rem 0 1.25rem;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    width: fit-content;
+}
+
+/* Hamburger button */
+.button {
+    display: none;
+}
+
+/* Hamburger */
+.hamburger {
+    width: 26px;
+    height: 2px;
+    background: var(--secondary);
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: 0.5s;
+    display: flex;
+    justify-content: end;
+}
+
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 26px;
+    background: var(--secondary);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.hamburger:before {
+    top: -8px;
+}
+
+.hamburger:after {
+    top: 8px;
+}
+
+.active.hamburger {
+    background:rgba(0,0,0,0);
+}
+
+.active.hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.active.hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+/* Phone mode */
+@media (max-width: 768px) {
+    /* Navbar */
+    .margin {
+        margin: 0;
+    }
+
+    /* Menu */
+    .menu {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        right: -50%;
+        width: 50%;
+        background-color: rgb(23, 42, 69);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+    }
+    
+    .menuOpen {
+        opacity: 1;
+        transform: translateX(-100%);
+    }
+
+    /* Hamburger button */
+    .button {
+        display: flex;
+    }
+}
