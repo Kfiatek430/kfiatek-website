@@ -13,9 +13,6 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
     },
-  },
-  plugins: [
-    require('daisyui'),
-  ],
+  }
 };
 export default config;

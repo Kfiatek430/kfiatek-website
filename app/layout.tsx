@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description: "Michal's portfolio, blog, gallery and more",
 };
 
+// import { config } from '@fortawesome/fontawesome-svg-core'
+// import '@fortawesome/fontawesome-svg-core/styles.css'
+// config.autoAddCss = false
+
 export default function RootLayout({
   children,
 }: Readonly<{

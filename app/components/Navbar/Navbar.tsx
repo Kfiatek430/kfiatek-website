@@ -10,14 +10,14 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`flex justify-between items-center p-5 text-xl ${styles.margin}`}>
-      <h2 className="w-fit">Kfiatek<span style={{ color: "var(--secondary)" }}>430</span></h2>
+    <nav className={`flex justify-between items-center p-5 text-xl mx-0 md:mx-5`}>
+      <h2 className="w-fit text-slate-50">Kfiatek<span className="text-[var(--green)]">430</span></h2>
 
       <ul className={`${styles.menu} ${isMenuOpen ? styles.menuOpen : ''}`}>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Counters</a></li>
+        <li><a href="#" className={styles.link}>Blog</a></li>
+        <li><a href="#" className={styles.link}>Gallery</a></li>
+        <li><a href="#" className={styles.link}>Counters</a></li>
+        <li><a href="#" className={styles.link}>Codeshare</a></li>
       </ul>
 
       <div
