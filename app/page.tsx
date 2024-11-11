@@ -15,7 +15,7 @@ export default function Home() {
         <Introduction />
       </div>
 
-      <div className="w-full flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-stretch items-center">
         <JobHistory />
       </div>
     </div>
