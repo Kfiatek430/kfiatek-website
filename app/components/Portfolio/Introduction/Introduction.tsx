@@ -2,7 +2,7 @@ import React from 'react'
 
 const Introduction = () => {
     return (
-        <div className="w-full flex justify-center items-center pt-5">
+        <div className="w-full h-full flex justify-center items-center pt-5">
             <div className="w-4/5 flex justify-center">
                 <div className="flex flex-col justify-center items-center gap-4 w-fit">
                     <p className="text-lg md:text-2xl tracking-[0.1rem] text-[var(--green)] w-full">Hello, my name is</p>
