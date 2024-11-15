@@ -1,0 +1,11 @@
+.opis {
+    padding: 2rem;
+    background-color: rgb(23, 42, 69);
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    position: relative;
+    left: -5rem;
+}
+
+.image {
+    position: relative;   
+}
