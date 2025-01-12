@@ -6,7 +6,7 @@ This is my personal portfolio website, built with **Next.js**.
 - ✅ General layout and responsive design completed  
 - ✅ **Introduction** section finished  
 - ✅ **Job History** section finished  
-- ❌ **Projects** section (in progress)  
+- 🔨 **Projects** section (in progress)  
 - ❌ **Contact** section (planned)
 - ❌ **Blog** (planned)  
 - ❌ **Gallery** (planned)  
