@@ -12,12 +12,12 @@ const SocialMediaLinks = () => {
         >
             <ul className="flex flex-col justify-center items-center gap-3">
             <li className="relative min-h-6 min-w-6">
-                <a href="#" className={`relative ${styles.link}`}>
+                <a href="https://github.com/Kfiatek430" className={`relative ${styles.link}`} target="_blank">
                 <FontAwesomeIcon icon={faGithub} />
                 </a>
             </li>
             <li className="relative min-h-6 min-w-6">
-                <a href="#" className={`relative ${styles.link}`}>
+                <a href="https://www.instagram.com/mkpictures43/" className={`relative ${styles.link}`} target="_blank">
                 <FontAwesomeIcon icon={faInstagram} />
                 </a>
             </li>

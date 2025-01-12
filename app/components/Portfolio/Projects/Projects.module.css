@@ -1,4 +1,4 @@
-.opis {
+.description {
     padding: 2rem;
     background-color: rgb(23, 42, 69);
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
@@ -8,4 +8,19 @@
 
 .image {
     position: relative;   
+}
+
+.technologies {
+    word-spacing: 1.3em;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .description {
+        left: 0;
+    }
+
+    .technologies {
+        text-align: center;
+    }
 }
